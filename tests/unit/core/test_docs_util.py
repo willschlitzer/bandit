@@ -10,7 +10,7 @@ from bandit.core.docs_utils import get_url
 class DocsUtilTests(testtools.TestCase):
     """This set of tests exercises bandit.core.docs_util functions."""
 
-    BASE_URL = f"https://bandit.readthedocs.io/en/{bandit.__version__}/"
+    BASE_URL = f"https://bandit.readthedocs.io/en/latest/"
 
     def test_overwrite_bib_info(self):
         expected_url = self.BASE_URL + (
